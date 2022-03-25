@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
  explicit binding- we tell javascript what this keyword refers to using .call, .apply, and .find. 
 
- new binding-
+ new binding-is when you use the new keyword, the this keyword  binds to the new object that is created
 
  Why do we need super() in an extended class?
 
