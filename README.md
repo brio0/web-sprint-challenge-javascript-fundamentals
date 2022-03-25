@@ -26,9 +26,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map returns a new array with results from a provided function. It is like a for loop.
+.reduce returns a single value by taking all specified values from array and returning a final result
+.filter is filtering a list based on a boolean provided
+
 2. Explain the difference between a callback and a higher order function.
 
+Callback functions are what are passed into higher order functions. Higher order functions recieve callback functions as arguments
+
 3. Explain what a closure is.
+
+closure is when a function looks outside of its scope to the parent function for a variable.
 
 4. Describe the four principles of the 'this' keyword.
 
