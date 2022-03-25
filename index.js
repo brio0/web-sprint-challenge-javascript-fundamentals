@@ -16,8 +16,7 @@ function myFunction() {
 //myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-/*nestedFunction can access internal because first it looks inside locally to find nested, if its not there like in this case, it will look outside to its parent scope to find internal. this also descrubes closure
-*/
+
 
 
 
@@ -39,12 +38,8 @@ function summation(number) {
   return sum
 
 }
-
-
-
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
-
 
 const zooAnimals = [
   { animal_name: "Jackal, asiatic", population: 5, scientific_name: "Canis aureus", state: "Kentucky" },
@@ -92,6 +87,7 @@ function lowerCaseNames(arr) {
   return lowercase;
 }
 console.log(lowerCaseNames(zooAnimals))
+
 
 /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
 The zoo is concerned about animals with a lower population count. 
@@ -150,6 +146,7 @@ function consume(a, b, cb) {
 function add(num1, num2) {
   return num1 + num2
 }
+
 
 
 /* Use multiply to do the following:
@@ -226,6 +223,7 @@ CuboidMaker.prototype.surfaceArea = function () {
   Create an object called cuboid that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid. */
 
+
 let cuboid = new CuboidMaker({
   length: 4,
   width: 5,
@@ -233,11 +231,10 @@ let cuboid = new CuboidMaker({
 });
 
 
-
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-console.log(cuboid.volume()); // 100
-console.log(cuboid.surfaceArea()); // 130
+// console.log(cuboid.volume()); // 100
+// console.log(cuboid.surfaceArea()); // 130
 
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
@@ -264,8 +261,10 @@ let cuboidTwo = new CuboidMaker({
 });
 
 
+
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-// console.log(cuboidTwo.volume(2, 3, 4)); // 100
+// console.log(cuboidTwo.volume()); // 100
+// console.log(cuboidTwo.surfaceArea()); // 130
 
 
 
