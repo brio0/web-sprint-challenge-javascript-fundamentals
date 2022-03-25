@@ -32,7 +32,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four principles of the 'this' keyword.
 
-5. Why do we need super() in an extended class?
+ window binding- if we dont assign some for this to bind to, then it will default to the window unless you are in strict mode, which it will return undefined
+
+ implicit binding - this applies to objects with methods. when function is invoked we look left of the . to see what this refers to. this has no meaning until it is invoked.
+
+ explicit binding- we tell javascript what this keyword refers to using .call, .apply, and .find. 
+
+ Why do we need super() in an extended class?
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
