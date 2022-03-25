@@ -38,6 +38,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
  explicit binding- we tell javascript what this keyword refers to using .call, .apply, and .find. 
 
+ new binding-
+
  Why do we need super() in an extended class?
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
